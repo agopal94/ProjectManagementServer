@@ -1,0 +1,10 @@
+CREATE TABLE tasks (
+    tid VARCHAR(255) NOT NULL,
+    pid VARCHAR(255) NOT NULL,
+    tname VARCHAR(255) NOT NULL,
+    tdesc VARCHAR(255),
+    createdTs VARCHAR(255) NOT NULL,
+    updatedTs VARCHAR(255) NOT NULL,
+    status VARCHAR(255) NOT NULL,
+    PRIMARY KEY(tid)
+)

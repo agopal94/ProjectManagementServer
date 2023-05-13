@@ -1,0 +1,9 @@
+CREATE TABLE projects (
+    pid VARCHAR(255) NOT NULL,
+    pname VARCHAR(255) NOT NULL,
+    pdesc VARCHAR(255),
+    createdTs VARCHAR(255) NOT NULL,
+    updatedTs VARCHAR(255) NOT NULL,
+    status VARCHAR(255) NOT NULL,
+    PRIMARY KEY(pid)
+)
